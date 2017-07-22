@@ -31,6 +31,7 @@ require 'vendor/autoload.php';
 $payumoney = new PayUMoney([
     'merchantId' => 'YOUR_MERCHANT_ID',
     'secretKey'  => 'YOUR_SECRET_KEY',
+    'salt'       =>  'YOUR_SALT',
     'testMode'   => true
 ]);
 
