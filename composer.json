@@ -1,8 +1,8 @@
 {
-  "name": "razzbee/payumoney",
+  "name": "razzbee/payumoney-php-sdk",
   "description": "PayUMoney library for PHP",
   "keywords": ["payu", "payuindia", "payumoney"],
-  "homepage": "https://github.com/razzbee/payumoney-php",
+  "homepage": "https://github.com/razzbee/payumoney-php-sdk",
   "type": "library",
   "version": "1.2",
   "license": "MIT",
