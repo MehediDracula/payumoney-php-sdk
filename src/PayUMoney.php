@@ -33,16 +33,18 @@ class PayUMoney
     {
         $resolver = (new OptionsResolver())
             ->setDefaults(['testMode' => true])
-            ->setRequired(['merchantId', 'secretKey', 'testMode'])
+            ->setRequired(['merchantId', 'secretKey', 'salt','testMode'])
             ->setAllowedTypes('merchantId', 'string')
             ->setAllowedTypes('secretKey', 'string')
-            ->setAllowedTypes('testMode', 'bool');
+            ->setAllowedTypes('testMode', 'bool')
+            ->setAllowedTypes('salt', 'string');
 
         $options = $resolver->resolve($options);
 
         $this->merchantId = $options['merchantId'];
         $this->secretKey = $options['secretKey'];
         $this->testMode = $options['testMode'];
+        $this->salt     = $options['salt'];
     }
 
     /**
@@ -106,7 +108,7 @@ class PayUMoney
 
         $values = array_merge([$this->getMerchantId()], $values, [$this->getSecretKey()]);
 
-        return hash('sha512', implode('|', $values));
+        return hash('sha512', implode('|', $values)).$this->salt;
     }
 
     /**
