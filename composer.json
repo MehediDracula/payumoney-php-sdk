@@ -1,10 +1,10 @@
 {
-  "name": "niranjan94/payumoney",
+  "name": "razzbee/payumoney",
   "description": "PayUMoney library for PHP",
   "keywords": ["payu", "payuindia", "payumoney"],
-  "homepage": "http://github.com/niranjan94/payumoney-php",
+  "homepage": "https://github.com/razzbee/payumoney-php",
   "type": "library",
-  "version": "1.1",
+  "version": "1.2",
   "license": "MIT",
   "authors": [
     {
@@ -16,6 +16,12 @@
       "name": "Niranjan R",
       "email": "niranjan94@yahoo.com",
       "homepage": "https://www.codezero.xyz"
+    },
+    
+    {
+      "name": "Razak Zakari",
+      "email": "razzsense@gmail.com",
+      "homepage": "https://github.com/razzbee"
     }
   ],
   "autoload": {
