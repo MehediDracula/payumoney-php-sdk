@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeZero\PayUMoney;
+namespace Razzbee\PayUMoney;
 
 class PurchaseResult
 {
