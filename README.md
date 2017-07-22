@@ -6,11 +6,11 @@ Simple library for accepting payments via [PayUMoney](https://www.payumoney.com/
 
 ## Installation
 
-To add this library to your project, simply add a dependency on `niranjan94/payumoney` to your project's `composer.json` file. Here is a minimal example of a composer.json file:
+To add this library to your project, simply add a dependency on `razzbee/payumoney-php-sdk` to your project's `composer.json` file. Here is a minimal example of a composer.json file:
 
     {
         "require": {
-            "niranjan94/payumoney": "1.*"
+            "razzbee/payumoney-php-sdk": "1.*"
         }
     }
     
