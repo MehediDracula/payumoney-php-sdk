@@ -26,7 +26,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "CodeZero\\PayUMoney\\": "src/"
+      "Razzbee\\PayUMoney\\": "src/"
     }
   },
   "require": {
