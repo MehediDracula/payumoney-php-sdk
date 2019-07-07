@@ -1,6 +1,6 @@
 <?php
 
-namespace Razzbee\PayUMoney;
+namespace MehediDracula\PayUMoney;
 
 class PurchaseResult
 {

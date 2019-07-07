@@ -1,6 +1,6 @@
 <?php
 
-namespace Razzbee\PayUMoney;
+namespace MehediDracula\PayUMoney;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\OptionsResolver\OptionsResolver;
