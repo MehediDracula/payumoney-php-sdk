@@ -6,7 +6,7 @@ Simple library for accepting payments via [PayUMoney](https://www.payumoney.com/
 
 ## Installation
 
-To add this library to your project, run the command `composer require mehedi/payumoney-php-sdk`.
+To add this library to your project, run the command `composer require mehedi/payumoney-php-sdk:dev-master`.
 
 ## Usage
 
