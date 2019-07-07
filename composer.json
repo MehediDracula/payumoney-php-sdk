@@ -1,10 +1,10 @@
 {
-  "name": "razzbee/payumoney-php-sdk",
+  "name": "mehedidracula/payumoney-php-sdk",
   "description": "PayUMoney library for PHP",
   "keywords": ["payu", "payuindia", "payumoney"],
-  "homepage": "https://github.com/razzbee/payumoney-php-sdk",
+  "homepage": "https://github.com/MehediDracula/payumoney-php-sdk",
   "type": "library",
-  "version": "1.2",
+  "version": "1.0",
   "license": "MIT",
   "authors": [
     {
@@ -21,16 +21,21 @@
       "name": "Razak Zakari",
       "email": "razzsense@gmail.com",
       "homepage": "https://github.com/razzbee"
+    },
+    {
+      "name": "Mehedi Hassan",
+      "email": "MehediDracula@gmail.com",
+      "homepage": "https://github.com/MehediDracula"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Razzbee\\PayUMoney\\": "src/"
+      "MehediDracula\\PayUMoney\\": "src/"
     }
   },
   "require": {
     "php": ">=5.5.0",
-    "symfony/options-resolver": "~2.6|~3.0",
-    "symfony/http-foundation": "~2.6|~3.0"
+    "symfony/options-resolver": "~2.6|~3.0|~4.0",
+    "symfony/http-foundation": "~2.6|~3.0|~4.0"
   }
 }
