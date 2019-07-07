@@ -30,7 +30,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "MehediDracula\\PayUMoney\\": "src/"
+      "Mehedi\\PayUMoney\\": "src/"
     }
   },
   "require": {

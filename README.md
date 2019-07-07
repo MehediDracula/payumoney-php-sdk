@@ -18,7 +18,7 @@ You'll find a minimal usage example below.
 <?php
 // purchase.php
 
-use Razzbee\PayUMoney\PayUMoney;
+use Mehedi\PayUMoney\PayUMoney;
 
 require 'vendor/autoload.php';
 
