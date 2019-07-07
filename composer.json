@@ -1,5 +1,5 @@
 {
-  "name": "mehedidracula/payumoney-php-sdk",
+  "name": "mehedi/payumoney-php-sdk",
   "description": "PayUMoney library for PHP",
   "keywords": ["payu", "payuindia", "payumoney"],
   "homepage": "https://github.com/MehediDracula/payumoney-php-sdk",
@@ -38,5 +38,6 @@
     "symfony/options-resolver": "~2.6|~3.0|~4.0",
     "symfony/http-foundation": "~2.6|~3.0|~4.0"
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
