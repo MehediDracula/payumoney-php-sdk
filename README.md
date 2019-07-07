@@ -6,14 +6,8 @@ Simple library for accepting payments via [PayUMoney](https://www.payumoney.com/
 
 ## Installation
 
-To add this library to your project, simply add a dependency on `razzbee/payumoney-php-sdk` to your project's `composer.json` file. Here is a minimal example of a composer.json file:
+To add this library to your project, run the command `composer require mehedi/payumoney-php-sdk`.
 
-    {
-        "require": {
-            "razzbee/payumoney-php-sdk": "1.*"
-        }
-    }
-    
 ## Usage
 
 You'll find a minimal usage example below.
@@ -83,7 +77,7 @@ The `PurchaseResult` has a few more methods that might be useful:
 $result = $payumoney->completePurchase($_POST);
 
 // Returns Complete, Pending, Failed or Tampered
-$result->getStatus(); 
+$result->getStatus();
 
 // Returns an array of all the parameters of the transaction
 $result->getParams();
